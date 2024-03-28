@@ -1,0 +1,81 @@
+/* Media query for mobile */
+@media (max-width: 576px) {
+    .small_device5 {
+        display: block;
+    }
+
+    .large_device5 {
+        display: none;
+    }
+
+    .small_device_box5 {
+
+    }
+    .small_device_box5 img {
+        width: 100%;
+        position: absolute;
+        height: 502px;
+    }
+
+    .small_device_box_inside5 {
+        position: relative;
+        text-align: center;
+        color: #fff;
+        padding: 10px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .small_device_box_inside5 p{
+        padding-top: 300px;
+    }
+    .small_device_box_inside5 img{
+        padding-top: 30px;
+        width: 300px;
+    }
+}
+
+/* Media query for medium devices (e.g., tablets) */
+@media (min-width: 576px) and (max-width: 1000px) {
+    .small_device5 {
+        display: none;
+    }
+
+    .large_device5 {
+        display: block;
+    }
+    .music_class_box5 {
+        width: 90%;
+        
+    }
+    .music_class_box5 p{
+       padding-top: 30px;
+       padding-bottom: 20px;
+        
+    }
+
+}
+
+/* Media query for large devices (e.g., desktops) */
+@media (min-width: 1000px) {
+    .small_device5 {
+        display: none;
+    }
+
+    /* .img_letter5 {
+        width: 400px;
+    }
+
+    .img_music_class5 {
+        width: 500px;
+    } */
+
+    .music_class_box5 {
+        width: 95%;
+        
+    }
+    .music_class_box5 p{
+       padding-top: 30px;
+        
+    }
+
+}

@@ -1,0 +1,146 @@
+/* Media query for mobile */
+@media (max-width: 576px) {
+    .small_device6 {
+        margin-top: 130px;
+        margin-bottom: 90px;
+    }
+
+    .large_device6 {
+        display: none;
+    }
+/* 
+    large_device6 {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      } */
+      
+      .mySwiper2 {
+        width: 370px;
+        height: 300px;
+        padding: 50px;
+      }
+      
+      .mySwiper2 .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+      
+      .mySwiper2 .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+      
+
+
+}
+
+@media (min-width: 576px) and (max-width: 950px) {
+    .small_device6 {
+        display: none;
+    }
+
+    .box_padding6 {
+        padding: 43px;
+    }
+
+    .box6_1 {
+        /* width: 441px; */
+        height: 256px;
+        /* background: #fbfbfb; */
+    }
+
+    .box6_2 {
+        /* width: 670px; */
+        height: 310.26px;
+        /* background: #ffffff; */
+    }
+
+    .image_box6_1 {
+        position: absolute;
+        width: 29.5%;
+        height: 230px;
+    }
+
+    .image_box6_2 {
+        position: absolute;
+        width: 45.5%;
+        height: 230px;
+    }
+
+    .box_contends6 {
+        position: relative;
+        color: #ffffff;
+    }
+
+    .box_contends6 p {
+        /* padding-top: 90px; */
+        padding-left: 16px;
+        /* background: #000; */
+        width: 90%;
+    }
+
+    .box_contends6 img {
+        padding-top: 20px;
+        padding-left: 16px;
+    }
+
+}
+
+@media (min-width: 950px) {
+    .small_device6 {
+        display: none;
+    }
+
+    .box_padding6 {
+        padding: 43px;
+    }
+
+    .box6_1 {
+        /* width: 441px; */
+        height: 256px;
+        /* background: #fbfbfb; */
+    }
+
+    .box6_2 {
+        /* width: 670px; */
+        height: 310.26px;
+        /* background: #ffffff; */
+    }
+
+    .image_box6_1 {
+        position: absolute;
+        width: 29.5%;
+        height: 230px;
+    }
+
+    .image_box6_2 {
+        position: absolute;
+        width: 45.5%;
+        height: 230px;
+    }
+
+    .box_contends6 {
+        position: relative;
+        color: #ffffff;
+    }
+
+    .box_contends6 p {
+        /* padding-top: 90px; */
+        padding-left: 16px;
+        /* background: #000; */
+        width: 90%;
+    }
+
+    .box_contends6 img {
+        padding-top: 20px;
+        padding-left: 16px;
+    }
+
+
+}

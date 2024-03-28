@@ -1,0 +1,24 @@
+/* Media query for mobile */
+@media (max-width: 576px) {
+    .music_courses_box3 {
+        margin-top: 30px;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 576px)  {
+    .music_courses_box3 {
+        margin-top: 30px;
+        font-weight: 600;
+        
+
+    }
+    .music_courses3_1 {
+        width: 90px;
+    }
+    .music_courses3_2 {
+        width: 80px;
+    }
+
+}
+

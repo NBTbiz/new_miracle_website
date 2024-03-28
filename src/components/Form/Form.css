@@ -1,0 +1,31 @@
+/* Media query for mobile */
+@media (max-width: 768px) {}
+
+
+
+
+/* Media query for desktop */
+@media (min-width: 769px) {
+    .form_box8 {
+        background: #FFB800;
+        width: 1270px;
+        height: 1163px;
+        border-radius: 38px;
+        padding: 80px 60px;
+    }
+
+    .form_imag_box8 {
+        background: #EEEDED;
+        width: 1149px;
+        height: 318px;
+        border-radius: 33px;
+    }
+
+    .form_button8 {
+        width: 319px;
+        height: 92px;
+        border-radius: 11px;
+        color: #fff;
+        background-color: #a70808;
+    }
+}

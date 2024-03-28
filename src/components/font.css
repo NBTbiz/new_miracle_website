@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Grota Sans';
+    src: url('../assets/fonts/Grota Sans Heavy Italic.otf') format('truetype');
+    /* Add more @font-face rules for different font weights/styles if needed */
+  }

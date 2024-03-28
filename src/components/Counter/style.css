@@ -1,0 +1,8 @@
+/* Media query for mobile */
+@media (max-width: 576px) {
+    .counter {
+      padding: 6px;
+      height: 46px;
+      margin-top: 10px;
+    }
+  }
