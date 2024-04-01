@@ -12,6 +12,7 @@ import InstrumentCategories from './InstrumentCategories/InstrumentCategories';
 import VideoPost from './VideoPost/VideoPost';
 // import Form from './Form/Form';
 import Experience from './Experience/Experience';
+// import Sample from './Sample';
 
 function MainPage() {
   return (
@@ -51,6 +52,8 @@ function MainPage() {
       {/* Form section 9 */}
       <Experience />
       {/*  */}
+
+      {/* < Sample /> */}
 
       {/* Add extra spacing */}
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />

@@ -159,10 +159,19 @@
         font-weight: 700;
         color: #FFB800;
     }
+    /* .box_const4 p {
+        padding-bottom: 10px;
+    } */
 
     .Under_line4 {
         width: 249px;
         height: 1px;
         background: #000;
     }
+    .box_dynamic4 {
+        padding-left: 5.5%;
+    }
+    .arrow_custom {
+        font-size: x-large;
+    } 
 }

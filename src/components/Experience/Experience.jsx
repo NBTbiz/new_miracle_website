@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import images from "../images";
 import './Experience.css';
 
 const Experience = () => {
     // Define state to store question-answer pairs
-    const [qna, setQna] = useState({
+    const [qna] = useState({
         qna1: {
             question: "Is it online singing classes effective?",
             answer: "Absolutely, voice training conducted online can help a lot of people. With the progress of technology, online platforms may offer video calls, pre-recorded lessons, and interactive exercises to deliver high-quality singing lessons. However, a number of variables, including the calibre of the teacher, the student's practice, and the stability of the internet connection, could affect how beneficial online singing lessons are. Selecting a reliable teacher and making sure the online format fits your learning requirements are crucial."

@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import './Slide.css';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+// import { Pagination } from 'swiper/modules';
 
 export default function App() {
     return (
@@ -25,7 +25,7 @@ export default function App() {
 
                         <div className='Under_line4'></div>
                         <br /><br />
-                        <p>Benefit of our Singing Classess</p>  
+                        <p>Benefit of our Singing Classess <span className='arrow_custom'>→</span></p>  
                 </div>
                 <div className='col-span-2 box_dynamic4'>
 
@@ -36,7 +36,7 @@ export default function App() {
                         pagination={{
                             clickable: true,
                         }}
-                        modules={[Pagination]}
+                        // modules={[Pagination]}
                         className="mySwiper1"
                     >
                         <SwiperSlide>

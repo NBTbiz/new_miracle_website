@@ -25,8 +25,8 @@ function InstrumentCategories() {
                 <Swiper
                     effect={'flip'}
                     ///// cube ^ //
-                    loop={true}
-                    grabCursor={true}
+                    // loop={true}
+                    grabCursor={false}
                     // pagination={true}
                     navigation={true}
                     modules={[EffectFlip, Pagination, Navigation]}
@@ -69,7 +69,7 @@ function InstrumentCategories() {
 
                         </div>
 
-                        <div className="col-start-3 col-end-3 box_01">
+                        <div className="col-start-3 col-span-2 box_01">
                             <img className='image_box6_1' src={images.instrument_2} alt="" />
 
                             <div className='box_contends6'>

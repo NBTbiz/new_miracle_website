@@ -9,8 +9,8 @@ function VideoPost() {
         <img src={images.experience} alt="" />
       </div>
       <br /><br /><br />
-    <div className="video_small_box7">
-      <div className="grid place-items-center ">
+      <div className="video_small_box7">
+        <div className="grid place-items-center ">
 
           {/* <div className=" small_video_box7_1 ">
 
@@ -19,13 +19,30 @@ function VideoPost() {
 
           </div> */}
           <div className="box7_1 ">
-            <img className="w-full h-full object-cover" src={images.reels} alt="" />
+            {/* <img className="w-full h-full object-cover" src={images.reels} alt="" /> */}
+            <iframe
+              src="https://www.instagram.com/reel/C5IPq76SpvM/embed/"
+              width="100%"
+              height="100%"
+              title="Instagram Post"
+              scrolling="no"
+            ></iframe>
           </div>
           <div className="box7_2 ">
-            <img className="w-full h-full object-cover" src={images.youtube} alt="" />
+            {/* <img className="w-full h-full object-cover" src={images.youtube} alt="" /> */}
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/DeF00TVKLHI?si=h8k9fL2lUmRaIL1L"
+              title="YouTube video player"
+              // frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              // referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen
+            ></iframe>
           </div>
 
-      </div>
+        </div>
       </div>
 
       <div className="video_larg7">
@@ -45,7 +62,14 @@ function VideoPost() {
           </div>
 
           <div className="video_box7_4 col-span-3 row-span-2">
-            <img className="w-full h-full object-cover" src={images.reels} alt="" />
+            {/* <img className="w-full h-full object-cover" src={images.reels} alt="" /> */}
+            <iframe
+              src="https://www.instagram.com/reel/C5IPq76SpvM/embed/"
+              width="100%"
+              height="100%"
+              title="Instagram Post"
+              scrolling="no"
+            ></iframe>
           </div>
 
           <div className="video_box7_5 col-span-3">
@@ -53,7 +77,17 @@ function VideoPost() {
           </div>
 
           <div className="video_box7_6 col-span-6 col-start-4">
-            <img className="w-full h-full object-cover" src={images.youtube} alt="" />
+            {/* <img className="w-full h-full object-cover" src={images.youtube} alt="" /> */}
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/DeF00TVKLHI?si=h8k9fL2lUmRaIL1L"
+              title="YouTube video player"
+              // frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              // referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen
+            ></iframe>
           </div>
 
         </div>

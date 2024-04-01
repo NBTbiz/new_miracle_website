@@ -15,7 +15,7 @@ function MusicCategories() {
     <>
       <div className='grid grid-cols-1'>
         <div className='text-center'>
-          <h3 className='sub_Heading'>Online Music Classes <br /> Categories</h3>
+          <h3 className='sub_Heading5'>Online Music Classes <br /> Categories</h3>
           <br /><br />
         </div>
         <div className='small_device5'>

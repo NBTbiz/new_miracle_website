@@ -1,37 +1,53 @@
 /* Media query for mobile */
 @media (max-width: 576px) {
 
-    .video_larg7{
+    .video_larg7 {
         display: none;
     }
-    .box7_1{
-        width: 250px;
+
+    .box7_1 {
+        width: 290px;
+        height: 530px;
         margin-bottom: 80px;
     }
-    .box7_1 img{
-        border-radius: 10px;
+
+    .box7_1 img {
+        /* border-radius: 10px; */
     }
-    .box7_2{
+
+    .box7_2 {
         width: 90%;
+        height: 220px;
     }
+
     .box7_2 img {
         border-radius: 10px;
     }
+
+    .box_image7 {
+        padding-top: 120px;
+    }
 }
+
 @media (min-width: 576px) and (max-width: 950px) {
     .video_small_box7 {
         display: none;
     }
+
     .box_image7 {
         /* margin-top: 50px; */
     }
-    
+
 }
 
 
 
 /* Media query for large devices (e.g., desktops) */
 @media (min-width: 950px) {
+
+    .video_small_box7 {
+        display: none;
+    }
 
     .box_image7 {
         padding-top: 39px;
@@ -91,4 +107,3 @@
         margin-left: 58px;
     }
 }
-

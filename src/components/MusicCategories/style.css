@@ -8,14 +8,20 @@
         display: none;
     }
 
-    .small_device_box5 {
+    /* .small_device_box5 {
 
-    }
+    } */
     .small_device_box5 img {
         width: 100%;
         position: absolute;
         height: 502px;
     }
+    .sub_Heading5 {
+        font-size: 20px;
+        font-weight: 900;
+        padding-top: 50px;
+      }
+
 
     .small_device_box_inside5 {
         position: relative;
@@ -71,11 +77,17 @@
 
     .music_class_box5 {
         width: 95%;
+        margin-top: 40px;
         
     }
     .music_class_box5 p{
        padding-top: 30px;
         
     }
+    .sub_Heading5 {
+        font-size: 55px;
+        font-weight: bold;
+        padding-top: 50px;
+      }
 
 }
