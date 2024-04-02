@@ -29,6 +29,27 @@
         color: #fff;
     }
 
+    .footer {
+        margin-top: 50px
+    }
+
+    .footer h4 {
+        font-size: large
+    }
+
+    .social_box {
+        margin: 10px 0 10px 0;
+    }
+
+    .privacy_box {
+        text-align: center;
+        /* background: red; */
+        width: 100px;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: 1px solid #fff;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 950px) {
@@ -42,6 +63,50 @@
     .box9 img {
         margin-top: 20px;
     }
+
+    .qna_box9 {
+        background: #0A1047;
+        margin-top: 50px;
+        color: #fff;
+    }
+
+    .qna_box9 h3 {
+        font-size: xx-large;
+    }
+
+    .n4_qna9 {
+        font-size: x-large;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    .qna_box9_h3,
+    .qna_box9_h2,
+    .qna_box9_h1 {
+
+        font-size: x-large;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .footer {
+        margin-top: 50px
+    }
+
+    .footer h4 {
+        font-size: x-large
+    }
+    .privacy_box {
+        text-align: center;
+        /* background: red; */
+        width: 150px;
+        border-radius: 20px;
+        margin-top: 70px;
+        border: 1px solid #fff;
+    }
+
+
 }
 
 
@@ -58,4 +123,48 @@
     .box9 img {
         margin-top: 20px;
     }
+
+    .qna_box9 {
+        background: #0A1047;
+        margin-top: 50px;
+        color: #fff;
+    }
+
+    .qna_box9 h3 {
+        font-size: xx-large;
+    }
+
+    .n4_qna9 {
+        font-size: x-large;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    .qna_box9_h3,
+    .qna_box9_h2,
+    .qna_box9_h1 {
+
+        font-size: x-large;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .footer {
+        margin-top: 50px
+    }
+
+    .footer h4 {
+        font-size: x-large
+    }
+    .privacy_box {
+        text-align: center;
+        /* background: red; */
+        width: 150px;
+        border-radius: 20px;
+        margin-top: 70px;
+        border: 1px solid #fff;
+    }
+
+
 }

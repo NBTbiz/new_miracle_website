@@ -26,14 +26,14 @@
     }
 
     .mySwiper2 .swiper-slide {
-        background-position: center;
+        /* background-position: center; */
         background-size: cover;
         width: 300px;
         height: 300px;
     }
 
     .mySwiper2 .swiper-slide img {
-        display: block;
+        /* display: block; */
         width: 100%;
     }
 
@@ -43,6 +43,26 @@
         color: #bab105;
     }
 
+    .swiper_inside_box1 {
+        position: absolute;
+    }
+
+    .swiper_inside_box2 {
+        position: relative;
+        padding: 20px;
+    }
+
+    .swiper_inside_box2 p{
+        color: #ffffff;
+        padding-top: 200px;
+        font-size: large;
+    }
+
+    .swiper_inside_box2 img{
+        height: 120px;
+        padding-right: 140px;
+        /* padding-top: 25px; */
+    }
 
 
 
@@ -106,7 +126,7 @@
     }
 
     .box_padding6 {
-        padding: 43px;
+        /* padding: 43px; */
     }
 
     .box6_1 {
@@ -116,21 +136,25 @@
     }
 
     .box6_2 {
-        /* width: 670px; */
+        width: 670px;
         height: 310.26px;
         /* background: #ffffff; */
     }
 
     .image_box6_1 {
         position: absolute;
-        width: 29.5%;
-        height: 230px;
+        /* width: 29.5%; */
+        height: 262px;
+        width:28%;
+        /* height: 47%; */
     }
 
     .image_box6_2 {
         position: absolute;
-        width: 45.5%;
-        height: 230px;
+        width: 43%;
+        /* height: 230px; */
+        height: 47%;
+
     }
 
     .box_contends6 {

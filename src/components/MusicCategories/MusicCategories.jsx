@@ -18,6 +18,7 @@ function MusicCategories() {
           <h3 className='sub_Heading5'>Online Music Classes <br /> Categories</h3>
           <br /><br />
         </div>
+        
         <div className='small_device5'>
           {/* Content to show only on small devices */}
 
@@ -49,6 +50,8 @@ function MusicCategories() {
           </div>
           
         </div>
+
+
         <div className="large_device5">
           <div className='grid grid-cols-2  custom_padding justify-items-center'>
             <div className='music_class_box5'>

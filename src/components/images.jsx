@@ -65,6 +65,11 @@ import instrumentSlide5 from '../assets/image/instrumentSlide5.png'
 
 import experience2 from '../assets/image/experience2.png'
 
+import social1 from '../assets/image/social1.svg'
+import social2 from '../assets/image/social2.svg'
+import social3 from '../assets/image/social3.svg'
+
+
 
 
 const images = {
@@ -115,6 +120,9 @@ const images = {
     instrumentSlide4,
     instrumentSlide5,
     experience2,
+    social1,
+    social2,
+    social3,
 
 };
 

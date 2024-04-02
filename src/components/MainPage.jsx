@@ -56,7 +56,7 @@ function MainPage() {
       {/* < Sample /> */}
 
       {/* Add extra spacing */}
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      {/* <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> */}
     </>
   );
 }

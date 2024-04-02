@@ -14,6 +14,15 @@ import images from '../images'
 // import required modules
 import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
 
+const para = {
+    p1: "Keyboard classes for adults and kids, including beginner lessons",
+    p2: "Guitar classes for adults and kids, including beginner classes and electric guitar lessons",
+    p3: "Violin classes for adults and kids, including beginner lessons",
+    p4: "Ukulele classes for beginners and adults with teacher support",
+    p5: "Beginner and advanced piano lessons for kids and adults",
+};
+
+
 function InstrumentCategories() {
     return (
         <>
@@ -33,25 +42,54 @@ function InstrumentCategories() {
                     className="mySwiper2"
                 >
                     <SwiperSlide>
-                        <img src={images.instrumentSlide1} />
+                        <img className='swiper_inside_box1' src={images.instrumentSlide1} />
+                        <div className='swiper_inside_box2'>
+                            <img className='swiper_img' src={images.Keyboard_classes} alt="" />
+
+                            <p>{para.p1}</p>
+                        </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={images.instrumentSlide2} />
+                        <img className='swiper_inside_box1' src={images.instrumentSlide2} />
+                        <div className='swiper_inside_box2'>
+                            <img className='swiper_img' src={images.guitar_Classes} alt="" />
+
+                            <p>{para.p2}</p>
+                        </div>
+
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={images.instrumentSlide3} />
+                        <img className='swiper_inside_box1' src={images.instrumentSlide3} />
+                        <div className='swiper_inside_box2'>
+                            <img className='swiper_img' src={images.Violin_classes} alt="" />
+
+                            <p>{para.p3}</p>
+                        </div>
+
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={images.instrumentSlide4} />
+                        <img className='swiper_inside_box1' src={images.instrumentSlide4} />
+                        <div className='swiper_inside_box2'>
+                            <img className='swiper_img' src={images.Ukulele_classes} alt="" />
+
+                            <p>{para.p4}</p>
+                        </div>
+
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={images.instrumentSlide5} />
+                        <img className='swiper_inside_box1' src={images.instrumentSlide5} />
+                        <div className='swiper_inside_box2'>
+                            <img className='swiper_img' src={images.Piano_lessons} alt="" />
+
+                            <p>{para.p5}</p>
+                        </div>
+
                     </SwiperSlide>
                 </Swiper>
 
             </div>
 
-            <div className="large_device6">
+            <div className="container mx-auto  large_device6 ">
                 <div className="grid grid-cols-1 box_padding6">
                     <div className="sub_Heading text-center">
                         <h3>Online Instrumental Clasess <br /> Categories</h3>
@@ -64,7 +102,7 @@ function InstrumentCategories() {
 
                             <div className='box_contends6'>
                                 <img src={images.Piano_lessons} alt="" />
-                                <p>Beginner and advanced piano lessons for kids and adults</p>
+                                <p>{para.p5}</p>
                             </div>
 
                         </div>
@@ -75,7 +113,7 @@ function InstrumentCategories() {
                             <div className='box_contends6'>
 
                                 <img src={images.Keyboard_classes} alt="" />
-                                <p>Keyboard classes for adults and kids, including beginner lessons</p>
+                                <p>{para.p1}</p>
                             </div>
 
                         </div>
@@ -86,8 +124,7 @@ function InstrumentCategories() {
                             <div className='box_contends6'>
 
                                 <img src={images.guitar_Classes} alt="" />
-                                <p>Guitar classes for adults and kids, including beginner Classes and electric guitar
-                                    lessons.</p>
+                                <p>{para.p2}</p>
                             </div>
 
                         </div>
@@ -98,7 +135,7 @@ function InstrumentCategories() {
                             <div className='box_contends6'>
 
                                 <img src={images.Violin_classes} alt="" />
-                                <p>Violin classes for Adult and kids including beginner lessons</p>
+                                <p>{para.p3}</p>
                             </div>
 
                         </div>
@@ -109,7 +146,7 @@ function InstrumentCategories() {
                             <div className='box_contends6'>
 
                                 <img src={images.Ukulele_classes} alt="" />
-                                <p>Ukulele classes for beginners and adults with teacher support</p>
+                                <p>{para.p4}</p>
                             </div>
 
                         </div>

@@ -30,7 +30,7 @@ const Experience = () => {
 
     return (
         <>
-            <div className="">
+            <div className="main_box9">
                 <div className="box9 custom_padding">
                     <h4>Experience the highest level of musical education with our esteemed instructors.</h4>
                     <p>Experienced Faculty, Certified by Trinity College London. With skill and supporting Credentials in the Art of music production and Language Studies</p>
@@ -48,6 +48,35 @@ const Experience = () => {
                         </div>
                     ))}
                 </div>
+                <div className="">
+                    <h4 className='qna_box9_h1'>Miracle music Academy Online Music Lessons?</h4>
+                    <p>There are online music classes for adults and kids. Best online music courses are offered by Miracle Music Academy which have been designed in such a manner that it can be learn for fun and for making a career in the musical field.We tailored for kids and adults who have passionate to learn music lessons online. Our online music courses have special features that make it easy to learn from the comfort of your home.We provide online music classes so that you can develop your career in the field of music.</p>
+
+                    <h4 className='qna_box9_h2'>About Miracle Music Academy</h4>
+                    <p>Miracle Music Academy of Music which is one of the best online music schools offers a comprehensive online music training to cover all aspects of playing an instrument or singing. We offer a number of live online music classes which include classes on music history, theory, composition and music basic lessons. We have best experienced and qualified music tutors for online classes who would also be able to provide feedback and help you to progress as a musician.if you pick music lessons online, it will be affordable and budget friendly. You can get best quality online music education from Miracle Music Academy. As per your proficiency you can choose music courses for beginners, music courses for intermediate and music courses for advanced level. Also there is no age limit for learning music. we provide online music lessons for adults and online music lessons for kids also.Miraclemusicacademy.com is an destination that helps people with all ages, kids and adults and learn to play different instruments. It is an online singing classes where live music lessons are conducted one-on-one through online music classes. We offer instruments like, violin, keyboard, Piano, Guitar & Ukulele for students to take lessons in and we teach them well.</p>
+
+                    <h4 className='qna_box9_h3'>Best online music classes near me</h4>
+                    <p>Every one of our online music teachers is highly qualified and experienced. Our online music classes are based on the most recent curriculum and are constantly evolving according to emerging trends and technologies. In this manner, we can guarantee that our students acquire the appropriate learning strategies and abilities.We have experienced musicians on staff who can teach you how to play popular songs to pas</p>
+                </div>
+            
+            <div className="footer">
+                <h4>Singing Classes</h4>
+                <h4>instrument classes</h4>
+                <h4>online class booking</h4>
+                <h4>blogs</h4>
+                <h4>About Us</h4>
+                <h4>Contact Information</h4>
+                <div className='flex social_box gap-4'>
+                    <img src={images.social1} alt="" />
+                    <img src={images.social2} alt="" />
+                    <img src={images.social3} alt="" />
+                </div>
+                <h4>Contact us : </h4>
+                <p> Near Ambattukavu metro station, Choornikkara, Aluva, Kochi, Kerala 683501 | +91 9995113575</p>
+            </div>
+            <div className='grid cols-1 justify-items-center'>
+            <div className="privacy_box">Privacy Policy</div>
+            </div>
             </div>
         </>
     );
