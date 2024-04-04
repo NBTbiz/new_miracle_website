@@ -23,7 +23,12 @@ function Hero() {
                     <div>
                         <img src={images.HeroImage} alt="IMAGE" />
 
-                        <h1 className=' hero_p'> <span className='font-bold'> Online Music Classes </span> to learn Singing Classes and <br /> Instrument Classes in <span className='text-orange-500 font-bold'> Kochi </span> , <span className='text-rose-500 font-bold'> Kerala </span> </h1>
+                        <h1 className=' hero_p'> 
+                        <span className='font-bold'> Online Music Classes </span>to learn Singing Classes and 
+                        <span className='hidden sm:inline'><br /> </span>
+                         Instrument Classes in 
+                         <span className='text-orange-500 font-bold'> Kochi </span> , 
+                         <span className='text-rose-500 font-bold'> Kerala </span> </h1>
                     </div>
                 </div>
                 <br />
@@ -31,7 +36,7 @@ function Hero() {
                 <div>
 
                     <img className='hidden sm:block' src={images.Register} alt="" />
-                    <div className="grid grid-cols-3 block sm:hidden gap-1">
+                    <div className="grid grid-cols-3 block sm:hidden gap-6">
                         <div className='col-span-2 register_box'>
                             <h4>Register</h4>
                             <img src={images.music_logo} alt="" />

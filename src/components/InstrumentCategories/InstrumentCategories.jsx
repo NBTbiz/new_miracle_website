@@ -26,7 +26,7 @@ const para = {
 function InstrumentCategories() {
     return (
         <>
-            <div className="small_device6">
+            <div className="small_device6 custom_padding">
 
                 <div className="sub_Heading text-center">
                     <h3>Online Instrumental Clasess <br /> Categories</h3>
@@ -89,15 +89,15 @@ function InstrumentCategories() {
 
             </div>
 
-            <div className="container mx-auto  large_device6 ">
+            <div className="large_device6">
                 <div className="grid grid-cols-1 box_padding6">
                     <div className="sub_Heading text-center">
                         <h3>Online Instrumental Clasess <br /> Categories</h3>
                     </div>
+                    {/* gap-[16px] */}
+                    <div className="grid grid-cols-6 gap-y-4">
 
-                    <div className="grid grid-cols-6 gap-[16.6px]">
-
-                        <div className="col-start-1 col-span-2 box_01">
+                        <div className="col-start-1 col-span-2 box6_1">
                             <img className='image_box6_1' src={images.instrument_1} alt="" />
 
                             <div className='box_contends6'>
@@ -107,7 +107,7 @@ function InstrumentCategories() {
 
                         </div>
 
-                        <div className="col-start-3 col-span-2 box_01">
+                        <div className="col-start-3 col-span-2 box6_1">
                             <img className='image_box6_1' src={images.instrument_2} alt="" />
 
                             <div className='box_contends6'>
@@ -140,7 +140,7 @@ function InstrumentCategories() {
 
                         </div>
 
-                        <div className="col-start-4 col-span-2 box_02">
+                        <div className="col-start-4 col-span-2 box6_2">
                             <img className='image_box6_2' src={images.instrument_5} alt="" />
 
                             <div className='box_contends6'>
