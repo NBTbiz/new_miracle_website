@@ -23,10 +23,10 @@ const para = {
 };
 
 
-function InstrumentCategories() {
+function InstrumentCategories({instrumentRef}) {
     return (
         <>
-            <div className="small_device6 custom_padding">
+            <div ref={instrumentRef} className="small_device6 custom_padding">
 
                 <div className="sub_Heading text-center">
                     <h3>Online Instrumental Clasess <br /> Categories</h3>

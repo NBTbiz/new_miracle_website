@@ -69,6 +69,18 @@ import social1 from '../assets/image/social1.svg'
 import social2 from '../assets/image/social2.svg'
 import social3 from '../assets/image/social3.svg'
 
+import thank_form from '../assets/image/thank_form.png'
+
+import slideImageT1 from '../assets/image/sliderTImages/slideImageT1.png'
+import slideImageT2 from '../assets/image/sliderTImages/slideImageT2.png'
+import slideImageT3 from '../assets/image/sliderTImages/slideImageT3.png'
+import slideImageT4 from '../assets/image/sliderTImages/slideImageT4.png'
+import slideImageT5 from '../assets/image/sliderTImages/slideImageT5.png'
+import slideImageT6 from '../assets/image/sliderTImages/slideImageT6.png'
+import slideImageT7 from '../assets/image/sliderTImages/slideImageT7.png'
+import slideImageT8 from '../assets/image/sliderTImages/slideImageT8.png'
+import slideImageT9 from '../assets/image/sliderTImages/slideImageT9.png'
+
 
 
 
@@ -123,6 +135,16 @@ const images = {
     social1,
     social2,
     social3,
+    thank_form,
+    slideImageT1,
+    slideImageT2,
+    slideImageT3,
+    slideImageT4,
+    slideImageT5,
+    slideImageT6,
+    slideImageT7,
+    slideImageT8,
+    slideImageT9,
 
 };
 

@@ -1,5 +1,33 @@
 /* Media query for mobile */
-@media (max-width: 768px) {}
+
+
+
+
+
+@media (max-width: 768px) {
+    .form_box8 {
+        background: #FFB800;
+        /* width: 370px; */
+        border-radius: 13px;
+        padding: 40px 20px 20px 20px;
+    }
+    .form_box8_1 {
+        width: 100%;
+    }
+    .form_button {
+        width: 70px;
+        height: 30px;
+        border-radius: 4px;
+        color: #fff;
+    }
+    .button_box8 {
+    }
+
+    .text_box8 {
+        padding-left: 6px;
+        
+    }
+}
 
 
 
@@ -8,24 +36,27 @@
 @media (min-width: 769px) {
     .form_box8 {
         background: #FFB800;
-        width: 1270px;
-        height: 1163px;
-        border-radius: 38px;
-        padding: 80px 60px;
+        width: 100%;
+        /* height: 1163px; */
+        border-radius: 13px;
+        padding: 70px;
+    }
+    .form_button {
+        /* background: #EEEDED; */
+        width: 90px;
+        height: 30px;
+        border-radius: 4px;
     }
 
     .form_imag_box8 {
-        background: #EEEDED;
-        width: 1149px;
-        height: 318px;
-        border-radius: 33px;
+        /* background: #EEEDED; */
+        /* width: 1149px; */
+        /* height: 318px; */
+        /* border-radius: 33px; */
+    }
+    .button_box8 {
+        /* padding-left: 400%; */
+        /* background: #000; */
     }
 
-    .form_button8 {
-        width: 319px;
-        height: 92px;
-        border-radius: 11px;
-        color: #fff;
-        background-color: #a70808;
-    }
 }

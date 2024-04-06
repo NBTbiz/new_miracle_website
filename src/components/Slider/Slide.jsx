@@ -10,7 +10,7 @@ import './Slide.css';
 import { Pagination } from 'swiper/modules';
 import {useLayoutEffect, useState } from 'react';
 
-export default function App() {
+export default function App({singingRef}) {
     const [isMediumOrLargeScreen, setIsMediumOrLargeScreen] = useState(true);
 
     useLayoutEffect(() => {
@@ -26,7 +26,7 @@ export default function App() {
     }, []);
     return (
         <>
-            <div className="small_device_box4_hide">
+            <div ref={singingRef} className="small_device_box4_hide">
                 <div className='flex justify-center '>
                     <div className='small_device_box4 '>
                         <h5>Singing classes</h5>

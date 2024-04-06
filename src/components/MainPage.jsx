@@ -10,55 +10,127 @@ import Slide from './Slider/Slide';
 import MusicCategories from './MusicCategories/MusicCategories';
 import InstrumentCategories from './InstrumentCategories/InstrumentCategories';
 import VideoPost from './VideoPost/VideoPost';
-// import Form from './Form/Form';
+import Form from './Form/Form';
 import Experience from './Experience/Experience';
-// import Sample from './Sample';
+import { useRef } from 'react';
 
 function MainPage() {
+  const formRef = useRef(null);
+  const instrumentRef = useRef(null);
+  const singingRef = useRef(null);
+
+  const scrollToForm = () => {
+    formRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  const scrollToSinging = () => {
+    singingRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  const scrollToInstrument = () => {
+    instrumentRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
       {/* Hero section 1*/}
-      <Hero />
-      {/* End Hero section */}
+      <Hero scrollToForm={scrollToForm} />
 
       {/* Counter section 2*/}
       <Counter />
-      {/* End Counter section */}
 
       {/* Music Courses section 3*/}
       <MusicCourses />
-      {/* End Music Courses section */}
 
       {/* Slider section 4*/}
-      <Slide />
-      {/* End Slider section */}
+      <Slide singingRef={singingRef} />
 
       {/* Music Classes Categories section 5*/}
       <MusicCategories />
-      {/* End Music Classes Categories section */}
 
       {/* Instrument Categories section 6 */}
-      <InstrumentCategories />
-      {/*  */}
+      <InstrumentCategories instrumentRef={instrumentRef} />
 
       {/* Video Post section 7 */}
       <VideoPost />
-      {/*  */}
 
       {/* Form section 8 */}
-      {/* <Form /> */}
-      {/*  */}
+      <Form formRef={formRef} />
 
       {/* Form section 9 */}
-      <Experience />
-      {/*  */}
+      <Experience
+        scrollToForm={scrollToForm}
+        scrollToSinging={scrollToSinging}
+        scrollToInstrument={scrollToInstrument}
+        />
 
-      {/* < Sample /> */}
-
-      {/* Add extra spacing */}
-      {/* <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> */}
     </>
   );
 }
 
 export default MainPage;
+
+
+// import React, { useRef } from 'react';
+// import './MainPage.css';
+// import './font.css';
+// import Hero from './Hero/Hero';
+// import Counter from './Counter/Counter';
+// import MusicCourses from './MusicCourses/MusicCourses';
+// import Slide from './Slider/Slide';
+// import MusicCategories from './MusicCategories/MusicCategories';
+// import InstrumentCategories from './InstrumentCategories/InstrumentCategories';
+// import VideoPost from './VideoPost/VideoPost';
+// import Form from './Form/Form';
+// import Experience from './Experience/Experience';
+
+// function MainPage() {
+//   const formRef = useRef(null);
+//   const instrumentRef = useRef(null);
+//   const singingRef = useRef(null);
+
+//   const scrollToForm = (ref) => {
+//     ref.current.scrollIntoView({ behavior: 'smooth' });
+//   };
+
+//   return (
+//     <>
+//       {/* Hero section */}
+//       <Hero scrollToForm={() => scrollToForm(singingRef)} />
+//       {/* End Hero section */}
+
+//       {/* Counter section */}
+//       <Counter />
+//       {/* End Counter section */}
+
+//       {/* Music Courses section */}
+//       <MusicCourses />
+//       {/* End Music Courses section */}
+
+//       {/* Slider section */}
+//       <Slide singingRef={singingRef} />
+//       {/* End Slider section */}
+
+//       {/* Music Classes Categories section */}
+//       <MusicCategories />
+//       {/* End Music Classes Categories section */}
+
+//       {/* Instrument Categories section */}
+//       <InstrumentCategories instrumentRef={instrumentRef} />
+//       {/* End Instrument Categories section */}
+
+//       {/* Video Post section */}
+//       <VideoPost />
+//       {/* End Video Post section */}
+
+//       {/* Form section */}
+//       <Form formRef={formRef} />
+//       {/* End Form section */}
+
+//       {/* Experience section */}
+//       <Experience scrollToForm={() => scrollToForm(aboutRef)} aboutRef={aboutRef} />
+//       {/* End Experience section */}
+//     </>
+//   );
+// }
+
+// export default MainPage;
+
