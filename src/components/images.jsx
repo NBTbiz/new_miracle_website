@@ -8,7 +8,7 @@ import Register from '../assets/image/Register.svg'
 import whatsapp from '../assets/image/whatsapp.svg'
 
 import Categories from '../assets/image/Categories.png'
-import Categories1 from '../assets/image/Categories1.png'
+import Categories1 from '../assets/image/Categories1.jpg'
 import Categories2 from '../assets/image/Categories2.png'
 import Categories3 from '../assets/image/Categories3.png'
 
@@ -57,11 +57,11 @@ import video_img2 from '../assets/image/video_img2.png'
 import video_img3 from '../assets/image/video_img3.png'
 
 
-import instrumentSlide1 from '../assets/image/instrumentSlide1.png'
-import instrumentSlide2 from '../assets/image/instrumentSlide2.png'
-import instrumentSlide3 from '../assets/image/instrumentSlide3.png'
-import instrumentSlide4 from '../assets/image/instrumentSlide4.png'
-import instrumentSlide5 from '../assets/image/instrumentSlide5.png'
+import instrumentSlide1 from '../assets/image/instrumentSlide1.jpg'
+import instrumentSlide2 from '../assets/image/instrumentSlide2.jpg'
+import instrumentSlide3 from '../assets/image/instrumentSlide3.jpg'
+import instrumentSlide4 from '../assets/image/instrumentSlide4.jpg'
+import instrumentSlide5 from '../assets/image/instrumentSlide5.jpg'
 
 import experience2 from '../assets/image/experience2.png'
 

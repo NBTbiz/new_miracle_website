@@ -160,7 +160,7 @@ function Form({ formRef }) {
                     </form>
                     ) : (
                         <div className="text-center">
-                            <img className='rounded-xl' src={images.thank_form} alt="" />
+                            <img className='rounded-xl' src={images.thank_form} alt="music classes" />
                         </div>
                     )}
             </div>

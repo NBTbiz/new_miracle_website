@@ -24,12 +24,12 @@ function Hero({ scrollToForm }) {
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4'>
                     <div>
-                        <img src={images.MIRACLE} alt="" className='miracle_box' /> <br />
-                        <img src={images.MUSIC} alt="" className='music_box' /> <br />
-                        <img src={images.Academy} alt="" className='academy_box' />
+                        <img src={images.MIRACLE} alt="MIRACLE" className='miracle_box' /> <br />
+                        <img src={images.MUSIC} alt="MUSIC" className='music_box' /> <br />
+                        <img src={images.Academy} alt="Academy" className='academy_box' />
                     </div>
                     <div>
-                        <img src={images.HeroImage} alt="IMAGE" />
+                        <img src={images.HeroImage} alt="singing classes" />
 
                         <h1 className=' hero_p'>
                             <span className='font-bold'> Online Music Classes </span>to learn Singing Classes and
@@ -47,10 +47,10 @@ function Hero({ scrollToForm }) {
                     <div className="grid grid-cols-3 block sm:hidden gap-6">
                         <div onClick={scrollToForm} className='col-span-2 register_box'>
                             <h4>Register</h4>
-                            <img src={images.music_logo} alt="" />
+                            <img src={images.music_logo} alt="music_logo" />
                         </div>
                         <div className='whatsapp_box' onClick={handleWhatsAppClick}>
-                            <img src={images.whatsapp_logo} alt="" />
+                            <img src={images.whatsapp_logo} alt="whatsapp_logo" />
                         </div>
                     </div>
 

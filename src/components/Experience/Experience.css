@@ -22,7 +22,6 @@
 
     .qna_box9 {
         background: #0A1047;
-        /* margin-top: 50px;/ */
         color: #fff;
     }
 
@@ -40,67 +39,44 @@
 
     /* ######################################################### */
 
-    /* .main_box9 {
-        position: relative;
-    } */
-
     .box9 {
-        /* position: relative; */
-        /* z-index: 1; */
-        /* background: #000; */
         height: 240px;
     }
 
     .box9_img {
         border-radius: 8px;
-        /* position: absolute; */
-        /* width: 100%; */
-        height: auto; 
-        object-fit: contain; 
+        height: auto;
+        object-fit: contain;
         filter: brightness(0.2);
-        /* background: #000; */
-
     }
 
     .slider-container {
-        /* position: absolute; */
         top: -100px;
-        /* left: 0; */
-        /* width: 100%; */
-        /* height: 300px; */
-        /* z-index: 1; */
-        /* overflow: hidden; */
         position: relative;
-        /* width: 100%; */
-        /* height: 300px;  */
-        /* overflow: hidden; */
-        /* background: b; */
+            width: 100%;
+            left: 0.3px;
     }
 
-    .slider-container h3{
+    .slider-container h3 {
         color: #fff;
         font-size: large;
         text-align: center;
         padding-bottom: 8px;
-        
-    }
 
-    .Slider_box9 {
-        /* margin-bottom: 0px; */
-        /* position: absolute; */
     }
 
     .slider-container img {
         width: 100%;
         height: 60px;
-        /* object-fit: cover; */
     }
 
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
 
+    /* ################################################################################# */
 
-
-
-    /* ################################################################################### */
     .map_box {
         width: 100%;
         max-width: 100%;
@@ -189,6 +165,11 @@
         border-radius: 13px;
         margin-top: 30px;
     }
+    
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
 
 
 }
@@ -261,6 +242,11 @@
         height: 384px;
         border-radius: 13px;
         margin-top: 30px;
+    }
+    
+    .slick-prev,
+    .slick-next {
+        display: none !important;
     }
 
 

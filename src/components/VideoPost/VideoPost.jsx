@@ -44,7 +44,7 @@ function VideoPost() {
             ></iframe>
           </div>
           <div className="couston7_h4">
-            <h4>Experienced Faculty, Certified by Trinity</h4>
+            <h4>Melodies of Musical Education</h4>
           </div>
           <div className="grid grid-cols-2 ">
             <div className=" box7_1 rounded-l-lg">

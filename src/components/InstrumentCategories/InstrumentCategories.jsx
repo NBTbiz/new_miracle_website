@@ -42,46 +42,46 @@ function InstrumentCategories({instrumentRef}) {
                     className="mySwiper2"
                 >
                     <SwiperSlide>
-                        <img className='swiper_inside_box1' src={images.instrumentSlide1} />
+                        <img className='swiper_inside_box1' src={images.instrumentSlide1}  alt="online keyboard" />
                         <div className='swiper_inside_box2'>
-                            <img className='swiper_img' src={images.Keyboard_classes} alt="" />
+                            <img className='swiper_img' src={images.Keyboard_classes} alt="online keyboard" />
 
-                            <p>{para.p1}</p>
+                            <p className='swiper_p'>{para.p1}</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='swiper_inside_box1' src={images.instrumentSlide2} />
+                        <img className='swiper_inside_box1' src={images.instrumentSlide2}  alt="guitar lessons" />
                         <div className='swiper_inside_box2'>
-                            <img className='swiper_img' src={images.guitar_Classes} alt="" />
+                            <img className='swiper_img' src={images.guitar_Classes} alt="guitar lessons" />
 
-                            <p>{para.p2}</p>
-                        </div>
-
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img className='swiper_inside_box1' src={images.instrumentSlide3} />
-                        <div className='swiper_inside_box2'>
-                            <img className='swiper_img' src={images.Violin_classes} alt="" />
-
-                            <p>{para.p3}</p>
+                            <p className='swiper_p2'>{para.p2}</p>
                         </div>
 
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='swiper_inside_box1' src={images.instrumentSlide4} />
+                        <img className='swiper_inside_box1' src={images.instrumentSlide3}  alt="violin classes near me" />
                         <div className='swiper_inside_box2'>
-                            <img className='swiper_img' src={images.Ukulele_classes} alt="" />
+                            <img className='swiper_img' src={images.Violin_classes} alt="violin classes near me" />
 
-                            <p>{para.p4}</p>
+                            <p className='swiper_p'>{para.p3}</p>
                         </div>
 
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='swiper_inside_box1' src={images.instrumentSlide5} />
+                        <img className='swiper_inside_box1' src={images.instrumentSlide4}  alt="ukelele classes near me" />
                         <div className='swiper_inside_box2'>
-                            <img className='swiper_img' src={images.Piano_lessons} alt="" />
+                            <img className='swiper_img' src={images.Ukulele_classes} alt="ukelele classes near me" />
 
-                            <p>{para.p5}</p>
+                            <p className='swiper_p'>{para.p4}</p>
+                        </div>
+
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img className='swiper_inside_box1' src={images.instrumentSlide5}  alt="piano classes" />
+                        <div className='swiper_inside_box2'>
+                            <img className='swiper_img' src={images.Piano_lessons} alt="piano classes" />
+
+                            <p className='swiper_p'>{para.p5}</p>
                         </div>
 
                     </SwiperSlide>
@@ -98,54 +98,54 @@ function InstrumentCategories({instrumentRef}) {
                     <div className="grid grid-cols-6 gap-y-4">
 
                         <div className="col-start-1 col-span-2 box6_1">
-                            <img className='image_box6_1' src={images.instrument_1} alt="" />
+                            <img className='image_box6_1' src={images.instrument_1} alt="piano classes" />
 
                             <div className='box_contends6'>
-                                <img src={images.Piano_lessons} alt="" />
+                                <img src={images.Piano_lessons} alt="piano classes" />
                                 <p>{para.p5}</p>
                             </div>
 
                         </div>
 
                         <div className="col-start-3 col-span-2 box6_1">
-                            <img className='image_box6_1' src={images.instrument_2} alt="" />
+                            <img className='image_box6_1' src={images.instrument_2} alt="online keyboard" />
 
                             <div className='box_contends6'>
 
-                                <img src={images.Keyboard_classes} alt="" />
+                                <img src={images.Keyboard_classes} alt="online keyboard" />
                                 <p>{para.p1}</p>
                             </div>
 
                         </div>
 
                         <div className="col-end-7 col-span-2 box6_1">
-                            <img className='image_box6_1' src={images.instrument_4} alt="" />
+                            <img className='image_box6_1' src={images.instrument_4} alt="guitar lessons" />
 
                             <div className='box_contends6'>
 
-                                <img src={images.guitar_Classes} alt="" />
+                                <img src={images.guitar_Classes} alt="guitar lessons" />
                                 <p>{para.p2}</p>
                             </div>
 
                         </div>
 
                         <div className="col-start-1 col-span-2 box6_2">
-                            <img className='image_box6_2' src={images.instrument_3} alt="" />
+                            <img className='image_box6_2' src={images.instrument_3} alt="violin classes near me" />
 
                             <div className='box_contends6'>
 
-                                <img src={images.Violin_classes} alt="" />
+                                <img src={images.Violin_classes} alt="violin classes near me" />
                                 <p>{para.p3}</p>
                             </div>
 
                         </div>
 
                         <div className="col-start-4 col-span-2 box6_2">
-                            <img className='image_box6_2' src={images.instrument_5} alt="" />
+                            <img className='image_box6_2' src={images.instrument_5} alt="ukelele classes near me" />
 
                             <div className='box_contends6'>
 
-                                <img src={images.Ukulele_classes} alt="" />
+                                <img src={images.Ukulele_classes} alt="ukelele classes near me" />
                                 <p>{para.p4}</p>
                             </div>
 

@@ -47,63 +47,56 @@ const Experience = ({ scrollToForm, scrollToSinging, scrollToInstrument }) => {
 
     const settings = {
         dots: false,
+        prevArrow: null, 
+        nextArrow: null,
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         speed: 2000,
         autoplaySpeed: 2000,
-        cssEase: "linear"
+        cssEase: "linear",
     };
 
     return (
         <>
-            <div className="main_box9">
+            <div className="main_box9  bg-red-100">
                 <div className="box9 custom_padding">
                     <h4>Experience the highest level of musical education with our esteemed instructors.</h4>
 
 
 
 
-                    <img className='box9_img' src={images.experience2} alt="" />
+                    <img className='box9_img' src={images.experience2} alt="music classes" />
                    
                     <div className="slider-container">
                         <h3>Experience the highest level</h3>
                         <Slider {...settings}>
                             <div className='Slider_box9'>
-                                {/* <h3>1</h3> */}
                                 <img src={images.slideImageT1} alt="" />
                             </div>
                             <div className='Slider_box9'>
-                                {/* <h3>2</h3> */}
                                 <img src={images.slideImageT2} alt="" />
                             </div>
                             <div className='Slider_box9'>
-                                {/* <h3>3</h3> */}
                                 <img src={images.slideImageT3} alt="" />
                             </div>
                             <div className='Slider_box9'>
-                                {/* <h3>4</h3> */}
                                 <img src={images.slideImageT4} alt="" />
                             </div>
                             <div className='Slider_box9'>
-                                {/* <h3>5</h3> */}
                                 <img src={images.slideImageT5} alt="" />
                             </div>
                             <div className='Slider_box9'>
-                                {/* <h3>6</h3> */}
                                 <img src={images.slideImageT6} alt="" />
                             </div>
                             <div className='Slider_box9'>
-                                {/* <h3>6</h3> */}
                                 <img src={images.slideImageT7} alt="" />
                             </div>
                             <div className='Slider_box9'>
-                                {/* <h3>6</h3> */}
                                 <img src={images.slideImageT8} alt="" />
                             </div>
                             <div className='Slider_box9'>
-                                {/* <h3>6</h3> */}
                                 <img src={images.slideImageT9} alt="" />
                             </div>
                         </Slider>

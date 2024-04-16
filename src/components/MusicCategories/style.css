@@ -14,7 +14,7 @@
         /* width: 100%; */
         /* position: relative; */
         /* overflow: hidden; */
-        
+
         /* object-fit: cover; */
     }
 
@@ -27,16 +27,16 @@
 
     }
 
-    .img5_1 {
+    /* .img5_1 {
         object-position: center -90px; 
+    } */
 
-    }
     .img5_2 {
-        object-position: center -60px; 
-
+        object-position: center -60px;
     }
+
     .img5_3 {
-        object-position: center -30px; 
+        object-position: center -30px;
 
     }
 

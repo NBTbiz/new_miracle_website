@@ -24,27 +24,27 @@ function MusicCategories() {
 
           <div className='small_device_box5'>
 
-            <img className='img5 img5_1' src={images.Categories1} alt="" />
+            <img className='img5 img5_1' src={images.Categories1} alt="carnatic music classes" />
             <div className='grid small_device_box_inside5'>
-              <img src={images.music_categories_1} alt="" />
+              <img src={images.music_categories_1} alt="carnatic music classes" />
               <p className='p5'>{paraphraseValue.p1}</p>
             </div>
           </div>
 
           <div className='small_device_box5'>
 
-            <img className='img5 img5_2' src={images.Categories2} alt="" />
+            <img className='img5 img5_2' src={images.Categories2} alt="western music classes" />
             <div className='grid small_device_box_inside5'>
-              <img src={images.music_categories_2} alt="" />
+              <img src={images.music_categories_2} alt="western music classes" />
               <p className='p5'>{paraphraseValue.p2}</p>
             </div>
           </div>
 
           <div className='small_device_box5'>
 
-            <img className='img5 img5_3' src={images.Categories3} alt="" />
+            <img className='img5 img5_3' src={images.Categories3} alt="hindustan music classes" />
             <div className='grid small_device_box_inside5'>
-              <img src={images.music_categories_3} alt="" />
+              <img src={images.music_categories_3} alt="hindustan music classes" />
               <p>{paraphraseValue.p3}</p>
             </div>
           </div>
