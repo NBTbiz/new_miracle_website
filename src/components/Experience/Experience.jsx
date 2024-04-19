@@ -29,7 +29,6 @@ const Experience = ({ scrollToForm, scrollToSinging, scrollToInstrument }) => {
         },
     });
     <div className='Slider_box9'>
-        {/* <h3>6</h3> */}
         <img src={images.slideImageT1} alt="" />
     </div>
     const aboutRef = useRef(null)
@@ -42,12 +41,11 @@ const Experience = ({ scrollToForm, scrollToSinging, scrollToInstrument }) => {
     // Function to retrieve answer based on question key
     const getAnswer = (questionKey) => {
         return qna[questionKey].answer;
-
     };
 
     const settings = {
         dots: false,
-        prevArrow: null, 
+        prevArrow: null,
         nextArrow: null,
         infinite: true,
         slidesToShow: 4,
@@ -63,12 +61,7 @@ const Experience = ({ scrollToForm, scrollToSinging, scrollToInstrument }) => {
             <div className="main_box9  bg-red-100">
                 <div className="box9 custom_padding">
                     <h4>Experience the highest level of musical education with our esteemed instructors.</h4>
-
-
-
-
                     <img className='box9_img' src={images.experience2} alt="music classes" />
-                   
                     <div className="slider-container">
                         <h3>Experience the highest level</h3>
                         <Slider {...settings}>
@@ -101,11 +94,8 @@ const Experience = ({ scrollToForm, scrollToSinging, scrollToInstrument }) => {
                             </div>
                         </Slider>
                     </div>
-
-
                 </div>
             </div>
-
 
             <div className="qna_box9 custom_padding">
                 <h3>Frequently Asked Question</h3>
@@ -129,12 +119,10 @@ const Experience = ({ scrollToForm, scrollToSinging, scrollToInstrument }) => {
                 </div>
 
                 <div className="footer">
-
                     <h4 onClick={scrollToSinging}>Singing Classes</h4>
                     <h4 onClick={scrollToInstrument}>Instrument Classes</h4>
                     <h4 onClick={scrollToForm}>Online Class Booking</h4>
                     <h4 onClick={scrollToAbout}>About Us</h4>
-
                     <div className='flex social_box gap-4'>
                         <a href="https://www.instagram.com/miraclemusic.online/" target="_blank" rel="noopener noreferrer">
                             <img src={images.social1} alt="Instagram" />

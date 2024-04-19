@@ -1,5 +1,3 @@
-// import React, { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -7,11 +5,9 @@ import 'swiper/css';
 import 'swiper/css/effect-flip';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
 import './style.css';
-
 import images from '../images'
-// import required modules
+
 import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
 
 const para = {
@@ -94,7 +90,6 @@ function InstrumentCategories({instrumentRef}) {
                     <div className="sub_Heading text-center">
                         <h3>Online Instrumental Clasess <br /> Categories</h3>
                     </div>
-                    {/* gap-[16px] */}
                     <div className="grid grid-cols-6 gap-y-4">
 
                         <div className="col-start-1 col-span-2 box6_1">

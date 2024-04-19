@@ -55,7 +55,6 @@ function MusicCategories() {
         <div className="large_device5">
           <div className='grid grid-cols-2  custom_padding justify-items-center'>
             <div className='music_class_box5'>
-              {/* <h3>Carnatic music</h3> */}
               <img className='img_letter5' src={images.music_categories_1} alt="" />
               <p>{paraphraseValue.p1}</p>
             </div>
@@ -66,12 +65,10 @@ function MusicCategories() {
               <img className='img_music_class5 img_music_class5_1' src={images.Categories2} alt="" />
             </div>
             <div className='music_class_box5'>
-              {/* <h3>western music</h3> */}
               <img className='img_letter5' src={images.music_categories_2} alt="" />
               <p>{paraphraseValue.p2}</p>
             </div>
             <div className='music_class_box5'>
-              {/* <h3>Hindustani music</h3> */}
               <img className='img_letter5' src={images.music_categories_3} alt="" />
               <p>{paraphraseValue.p3}</p>
             </div>
