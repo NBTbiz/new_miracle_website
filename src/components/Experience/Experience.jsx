@@ -118,7 +118,7 @@ const Experience = ({ scrollToForm, scrollToSinging, scrollToInstrument }) => {
                     ))}
                 </div>
                 <div className="">
-                    <h4 className='qna_box9_h1'>Miracle music Academy Online Music Lessons?</h4>
+                    <h4 className='qna_box9_h1'>Miracle Music Academy Online Music Lessons?</h4>
                     <p>There are online music classes for adults and kids. Best online music courses are offered by Miracle Music Academy which have been designed in such a manner that it can be learn for fun and for making a career in the musical field.We tailored for kids and adults who have passionate to learn music lessons online. Our online music courses have special features that make it easy to learn from the comfort of your home.We provide online music classes so that you can develop your career in the field of music.</p>
 
                     <h4 ref={aboutRef} className='qna_box9_h2'>About Miracle Music Academy</h4>
@@ -131,8 +131,8 @@ const Experience = ({ scrollToForm, scrollToSinging, scrollToInstrument }) => {
                 <div className="footer">
 
                     <h4 onClick={scrollToSinging}>Singing Classes</h4>
-                    <h4 onClick={scrollToInstrument}>instrument classes</h4>
-                    <h4 onClick={scrollToForm}>online class booking</h4>
+                    <h4 onClick={scrollToInstrument}>Instrument Classes</h4>
+                    <h4 onClick={scrollToForm}>Online Class Booking</h4>
                     <h4 onClick={scrollToAbout}>About Us</h4>
 
                     <div className='flex social_box gap-4'>

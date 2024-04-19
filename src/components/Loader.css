@@ -1,0 +1,91 @@
+/* Style for loader */
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    /* Change the background color if needed */
+    /* z-index: 9999; */
+}
+
+.loader .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader_text {
+    font-size: 100px;
+    color: transparent;
+    position: relative;
+    background-image: linear-gradient(to right,
+            #462523 0,
+            #cb9b51 22%,
+            #f6e27a 45%,
+            #f6f2c0 50%,
+            #f6e27a 55%,
+            #cb9b51 78%,
+            #462523 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.loader_text::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+    animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+/* .lotty_style {
+    width: 100px;
+    margin: 0px;
+    margin-left: 270px;
+    margin-bottom: 80px;
+    padding-bottom: 400p;
+    background-color: black;
+    position: absolute;
+} */
+
+/* loader end */
+
+
+
+@media (max-width: 576px) {
+    .h3_lodere_text {
+        font-size: 27px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 950px) {
+    .h3_lodere_text {
+        font-size: 40px;
+    }
+
+}
+
+@media (min-width: 950px) {
+
+    .h3_lodere_text {
+        font-size: 70px;
+    }
+
+}

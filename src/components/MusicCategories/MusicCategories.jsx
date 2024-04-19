@@ -60,10 +60,10 @@ function MusicCategories() {
               <p>{paraphraseValue.p1}</p>
             </div>
             <div className='music_class_box5'>
-              <img className='img_music_class5' src={images.Categories} alt="" />
+              <img className='img_music_class5' src={images.Categories1} alt="" />
             </div>
             <div className='music_class_box5'>
-              <img className='img_music_class5' src={images.Categories} alt="" />
+              <img className='img_music_class5 img_music_class5_1' src={images.Categories2} alt="" />
             </div>
             <div className='music_class_box5'>
               {/* <h3>western music</h3> */}
@@ -76,7 +76,7 @@ function MusicCategories() {
               <p>{paraphraseValue.p3}</p>
             </div>
             <div className='music_class_box5'>
-              <img className='img_music_class5' src={images.Categories} alt="" />
+              <img className='img_music_class5 img_music_class5_1' src={images.Categories3} alt="" />
             </div>
           </div>
         </div>
